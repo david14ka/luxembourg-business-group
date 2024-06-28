@@ -1,0 +1,71 @@
+.newsItemPlaceholder {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aNewGlobal,
+.newsItemPlaceholder,
+.theIeaHighlighted {
+  align-self: stretch;
+  position: relative;
+}
+.newsImage {
+  height: 1rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.posted25Min {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.financePostedContainer {
+  position: relative;
+}
+.newsDescription,
+.newsFooter,
+.newsItem,
+.newsItems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.newsFooter {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-crimson);
+}
+.newsDescription,
+.newsItem,
+.newsItems {
+  align-self: stretch;
+  flex-direction: column;
+}
+.newsDescription {
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-base);
+}
+.newsItem,
+.newsItems {
+  gap: var(--gap-2xs);
+}
+.newsItems {
+  height: 27.5rem;
+  padding: var(--padding-smi) 0 var(--padding-10xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .theIeaHighlighted {
+    font-size: var(--font-size-base);
+  }
+}

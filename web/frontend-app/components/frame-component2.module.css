@@ -1,0 +1,154 @@
+.germany {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.germanyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.frameChild {
+  width: 21.875rem;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameChild,
+.whyGermany {
+  position: relative;
+}
+.secondInTheWorldInThe202 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.secondInTheContainer {
+  width: 21.875rem;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.whyGermanyParent {
+  width: 24.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.challenges {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.challengesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.digitalizationAndAutomation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.digitalizationAndAutomationContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.frameContainer {
+  width: 21.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  font-size: var(--font-size-xl);
+}
+.aboutInner,
+.frameGroup,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 76.375rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
+.aboutInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-29xl) var(--padding-78xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .aboutInner {
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .germany {
+    font-size: var(--font-size-7xl);
+  }
+  .frameGroup {
+    gap: var(--gap-16xl);
+  }
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+  .aboutInner {
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .germany {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .digitalizationAndAutomationContainer,
+  .secondInTheContainer,
+  .whyGermany {
+    font-size: var(--font-size-base);
+  }
+  .frameGroup {
+    gap: var(--gap-mid);
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}

@@ -1,0 +1,70 @@
+.spacerIcon {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aNewGlobal,
+.spacerIcon,
+.theIeaHighlighted {
+  align-self: stretch;
+  position: relative;
+}
+.insightImage {
+  height: 1rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.posted25Min {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.financePostedContainer {
+  position: relative;
+}
+.insight,
+.insightContent,
+.insightDescription,
+.insightFooter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.insightFooter {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-crimson);
+}
+.insight,
+.insightContent,
+.insightDescription {
+  align-self: stretch;
+  flex-direction: column;
+}
+.insightDescription {
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-base);
+}
+.insight,
+.insightContent {
+  gap: var(--gap-2xs);
+}
+.insight {
+  flex: 1;
+  padding: var(--padding-smi) 0 var(--padding-10xs);
+  gap: var(--gap-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .theIeaHighlighted {
+    font-size: var(--font-size-base);
+  }
+}

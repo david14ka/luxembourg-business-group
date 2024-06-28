@@ -1,0 +1,170 @@
+.theSubstantialRole {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.clockIcon,
+.minuteRead {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 448091;
+}
+.clockIcon {
+  height: 1.563rem;
+  width: 1.563rem;
+  object-fit: cover;
+  min-height: 1.563rem;
+}
+.minuteRead {
+  align-self: stretch;
+  line-height: 121.17%;
+  white-space: pre-wrap;
+}
+.articleMetaLeft,
+.readingTimeContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.readingTimeContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 18.188rem;
+  margin-left: -1.375rem;
+}
+.articleMetaLeft {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.categoryIcon {
+  height: 1rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.construction,
+.posted25Min {
+  white-space: pre-wrap;
+}
+.posted25Min {
+  color: var(--color-black);
+}
+.constructionUaeContainer {
+  position: relative;
+}
+.articleCategory,
+.articleMetaRight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.articleCategory {
+  gap: var(--gap-5xs);
+}
+.articleMetaRight {
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-crimson);
+}
+.articleDividerChild,
+.articleMeta {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.articleMeta {
+  width: 28.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi);
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-base);
+}
+.articleDividerChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gray-100);
+}
+.articleContent,
+.articleDivider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.articleDivider {
+  width: 81.813rem;
+  height: 0.063rem;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.articleContent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.contraryToPopular,
+.itIsA,
+.loremIpsumIsSimply,
+.theStandardChunk,
+.thereAreMany,
+.whereCanI,
+.whereDoesIt,
+.whyDoWe {
+  margin: 0;
+}
+.loremIpsumIsSimplyContainer {
+  width: 81.688rem;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: justify;
+  display: inline-block;
+  max-width: 100%;
+}
+.articleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .theSubstantialRole {
+    font-size: var(--font-size-7xl);
+  }
+  .articleContainer {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .theSubstantialRole {
+    font-size: var(--font-size-lgi);
+  }
+  .readingTimeContainer {
+    margin-left: 0;
+  }
+}

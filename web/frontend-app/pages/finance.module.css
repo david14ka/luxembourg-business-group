@@ -1,0 +1,279 @@
+.frameChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 38.813rem;
+}
+.frameChild,
+.frameIcon,
+.frameInner,
+.frameItem {
+  position: absolute;
+  border-radius: var(--br-smi);
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameItem {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 64.75rem;
+  max-height: 100%;
+  width: 25.625rem;
+}
+.frameIcon,
+.frameInner {
+  top: 5.188rem;
+  left: 39.438rem;
+  width: 24.688rem;
+  height: 17.188rem;
+}
+.frameIcon {
+  left: 91rem;
+}
+.frameParent,
+.theForgeOf {
+  position: relative;
+  max-width: 100%;
+}
+.frameParent {
+  width: 115.688rem;
+  height: 22.375rem;
+  display: none;
+}
+.theForgeOf {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.slideContent {
+  width: 45.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.luxembourgsSteelIndustry {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.slideDescription {
+  width: 41.063rem;
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 var(--padding-xs) var(--padding-10xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.readMore1 {
+  position: relative;
+}
+.readMore,
+.slide {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.readMore {
+  border-radius: var(--br-xs);
+  background-color: var(--color-crimson);
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-48xl) var(--padding-xl)
+    var(--padding-50xl);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.slide {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-155xl) var(--padding-44xl) var(--padding-30xl);
+  box-sizing: border-box;
+  gap: var(--gap-12xl-5);
+  background-image: url(/slide1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.sliderNavigationChild {
+  height: 1.063rem;
+  width: 5.313rem;
+  position: relative;
+}
+.sliderNavigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.articleRow,
+.frameGroup,
+.slider4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.slider4 {
+  margin-left: -0.063rem;
+  margin-bottom: 1rem;
+  align-self: stretch;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.articleRow,
+.frameGroup {
+  gap: var(--gap-19xl);
+}
+.articleRow {
+  flex: 1;
+  min-width: 16.063rem;
+  max-width: 17.438rem;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 57.375rem;
+}
+.articleRow1 {
+  flex: 1;
+  gap: var(--gap-43xl);
+  min-width: 16.063rem;
+  max-width: 17.438rem;
+}
+.articleRow1,
+.articleRow2,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  height: 57.375rem;
+  gap: var(--gap-19xl);
+}
+.articleRow2 {
+  flex: 1;
+  gap: var(--gap-43xl);
+  min-width: 16.063rem;
+  max-width: 17.438rem;
+}
+.articc {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-39xl);
+  max-width: 100%;
+}
+.articc,
+.articles,
+.finance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.articles {
+  width: 87.125rem;
+  flex-direction: row;
+  padding: 0 var(--padding-33xl) var(--padding-56xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.finance {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .articles {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    padding-bottom: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .theForgeOf {
+    font-size: var(--font-size-13xl);
+  }
+  .slide {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .slide {
+    padding-top: var(--padding-94xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .articc {
+    gap: var(--gap-10xl);
+  }
+  .articles {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theForgeOf {
+    font-size: var(--font-size-5xl);
+  }
+  .luxembourgsSteelIndustry {
+    font-size: var(--font-size-lgi);
+  }
+  .readMore {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .slide {
+    gap: var(--gap-base);
+  }
+  .articleRow,
+  .frameGroup {
+    gap: var(--gap-lgi);
+  }
+  .articleRow1 {
+    gap: var(--gap-12xl);
+  }
+  .frameContainer {
+    gap: var(--gap-lgi);
+  }
+  .articleRow2 {
+    gap: var(--gap-12xl);
+  }
+}

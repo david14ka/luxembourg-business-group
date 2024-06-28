@@ -1,0 +1,287 @@
+.headerItemsIcon {
+  width: 13rem;
+  height: 3rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.headerContent {
+  width: 17.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headerChild,
+.headerItem {
+  height: 0.25rem;
+  width: 7.563rem;
+  position: relative;
+  border-top: 4px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  display: none;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 2.813rem;
+  cursor: pointer;
+}
+.homeLink {
+  width: 4.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.aboutUs {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.25rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.homeLink1 {
+  width: 6.063rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.sectors {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.688rem;
+}
+.sectorsDropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameChild {
+  height: 0.25rem;
+  width: 7.563rem;
+  position: relative;
+  border-top: 4px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  display: none;
+}
+.expandArrowIcon {
+  height: 2.169rem;
+  width: 1.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.sectorsDropdownParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.countries {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 4.625rem;
+}
+.countriesLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.frameItem {
+  height: 0.25rem;
+  width: 7.563rem;
+  position: relative;
+  border-top: 4px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  display: none;
+}
+.expandArrowIcon1 {
+  height: 2.169rem;
+  width: 1.5rem;
+  position: relative;
+  object-fit: cover;
+}
+.countriesLabelParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.contactDropdownChild {
+  width: 0;
+  height: 0;
+  position: relative;
+}
+.contactDropdown,
+.countriesContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactDropdown {
+  width: 0;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.countriesContent {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.contactUs1 {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 5.188rem;
+  white-space: nowrap;
+}
+.frameInner {
+  height: 0.25rem;
+  width: 7.563rem;
+  position: relative;
+  border-top: 4px solid var(--color-deepskyblue);
+  box-sizing: border-box;
+  display: none;
+}
+.contactUs,
+.contactUsParent {
+  display: flex;
+  align-items: flex-start;
+}
+.contactUsParent {
+  flex-direction: row;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.contactUs {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs-7);
+}
+.countriesDropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.logo,
+.logoWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.logo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.logoWrapper {
+  width: 41.125rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.searchIcon {
+  width: 2.125rem;
+  height: 2rem;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+}
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.subscribe {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 5rem;
+}
+.subscribeButton {
+  border-radius: var(--br-smi);
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-smi) var(--padding-21xl);
+}
+.header,
+.searchItems,
+.searchItemsWrapper,
+.subscribeButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchItems {
+  flex-direction: row;
+  gap: var(--gap-16xl);
+}
+.header,
+.searchItemsWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  color: var(--color-white);
+}
+.header {
+  flex: 1;
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-darkgray);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-lgi) var(--padding-34xl) var(--padding-base);
+  gap: var(--gap-55xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: var(--gap-lg);
+  }
+}

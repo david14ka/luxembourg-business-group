@@ -1,0 +1,161 @@
+.frameChild,
+.frameItem,
+.storyContentChild {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.storyContentChild {
+  height: 27.063rem;
+  flex: 1;
+  min-width: 11.563rem;
+  min-height: 27.063rem;
+}
+.frameChild,
+.frameItem {
+  align-self: stretch;
+  height: 13.25rem;
+  flex-shrink: 0;
+}
+.frameParent,
+.storyContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  min-width: 11.188rem;
+}
+.storyContent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-5xs);
+  min-width: 23.063rem;
+  max-width: 100%;
+}
+.storyImage {
+  width: 0.5rem;
+  height: 2.063rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.storyParagraph2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.ourStory {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.storyParagraph1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.atLuxembourgBusiness {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: justify;
+}
+.storyParagraph,
+.storyParagraphWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.storyParagraph {
+  align-self: stretch;
+  gap: var(--gap-8xl);
+}
+.storyParagraphWrapper {
+  width: 34.75rem;
+  padding: 0 0 var(--padding-49xl);
+  box-sizing: border-box;
+  min-width: 34.75rem;
+  min-height: 22.75rem;
+  max-width: 100%;
+}
+.aboutUsContent,
+.storyContentParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.storyContentParent {
+  width: 75.875rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-71xl);
+}
+.aboutUsContent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-47xl) var(--padding-77xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .aboutUsContent {
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .storyParagraphWrapper {
+    flex: 1;
+  }
+  .storyContentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .storyContent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .ourStory {
+    font-size: var(--font-size-13xl);
+  }
+  .storyParagraphWrapper {
+    min-width: 100%;
+  }
+  .storyContentParent {
+    gap: var(--gap-26xl);
+  }
+  .aboutUsContent {
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourStory {
+    font-size: var(--font-size-5xl);
+  }
+  .atLuxembourgBusiness {
+    font-size: var(--font-size-base);
+  }
+  .storyParagraphWrapper {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+  .storyContentParent {
+    gap: var(--gap-3xl);
+  }
+}

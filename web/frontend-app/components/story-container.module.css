@@ -1,0 +1,501 @@
+.seeAll1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 3.938rem;
+}
+.seeAllWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.rightArrowIcon {
+  height: 1.813rem;
+  width: 1.813rem;
+  position: relative;
+  object-fit: contain;
+}
+.seeAll {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-7xl) var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.featuredCountries {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.countriesTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -0.125rem;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.allStories {
+  width: 23.188rem;
+  flex-direction: column;
+  max-width: 100%;
+}
+.allStories,
+.countryNews,
+.newsList,
+.newsList1,
+.storiesContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.storiesContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+  min-width: 27.938rem;
+  max-width: 100%;
+}
+.countryNews,
+.newsList,
+.newsList1 {
+  gap: var(--gap-3xs);
+}
+.newsList,
+.newsList1 {
+  flex: 1;
+  flex-direction: column;
+  min-width: 12.25rem;
+}
+.countryNews {
+  width: 38.375rem;
+  flex-direction: row;
+  min-width: 38.375rem;
+  max-width: 100%;
+}
+.financeChild,
+.storiesWrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.storiesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.financeChild {
+  height: 11.625rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.germany {
+  position: relative;
+  display: inline-block;
+  min-width: 6.063rem;
+}
+.luxembourgStandsProudly {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+}
+.financeInner,
+.germanyParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.germanyParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.financeInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xl) 0 var(--padding-8xl);
+}
+.advanceIcon {
+  height: 1.188rem;
+  width: 1.188rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.188rem;
+}
+.view {
+  position: relative;
+  display: inline-block;
+  min-width: 1.875rem;
+}
+.advanceViewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.uSASeeAllButtonAdvance {
+  border-radius: var(--br-smi);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-smi);
+  gap: var(--gap-4xs);
+  cursor: pointer;
+}
+.exploreMore,
+.finance,
+.uSASeeAllButtonAdvance {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exploreMore {
+  flex-direction: row;
+  padding: 0 var(--padding-8xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.finance {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg-5);
+  min-width: 15.5rem;
+  max-width: 15.813rem;
+}
+.financeItem {
+  align-self: stretch;
+  height: 11.625rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.belgium {
+  width: 10.625rem;
+  position: relative;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+}
+.luxembourgsSteelAnd {
+  flex: 1;
+  position: relative;
+}
+.luxembourgsSteelAndIndustrWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+}
+.advanceIcon1 {
+  height: 1.188rem;
+  width: 1.188rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.188rem;
+}
+.view1 {
+  position: relative;
+  display: inline-block;
+  min-width: 1.875rem;
+}
+.readLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.uSASeeMoreButton {
+  border-radius: var(--br-smi);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-smi);
+  gap: var(--gap-4xs);
+  cursor: pointer;
+  color: var(--color-gray-100);
+}
+.belgiumParent,
+.frameDiv,
+.uSASeeMoreButton {
+  display: flex;
+  align-items: flex-start;
+}
+.belgiumParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) 0 var(--padding-8xl);
+}
+.finance1 {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 15.5rem;
+  max-width: 15.813rem;
+  font-size: var(--font-size-xs);
+}
+.countryHighlights,
+.featuredCountries1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.countryHighlights {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.featuredCountries1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.seeAll3 {
+  position: relative;
+  display: inline-block;
+  min-width: 3.938rem;
+}
+.seeAllCountriesLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.rightArrowIcon1 {
+  height: 1.813rem;
+  width: 1.813rem;
+  position: relative;
+  object-fit: contain;
+}
+.featuredCountriesContent,
+.seeAll2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.seeAll2 {
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-5xl) var(--padding-3xs) 0;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.featuredCountriesContent {
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs);
+}
+.getTheLatest {
+  color: var(--color-crimson);
+}
+.stayInformedStayContainer {
+  margin: 0;
+  width: 53.75rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.enterYourEmail {
+  position: relative;
+}
+.subscribeFormFields {
+  flex: 1;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-14xl);
+  min-width: 14.688rem;
+  max-width: 100%;
+}
+.subscribe1 {
+  position: relative;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.subscribeFormFields1,
+.subscriptionInputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.subscribeFormFields1 {
+  background-color: var(--color-crimson);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-37xl) var(--padding-lg);
+  z-index: 1;
+  margin-left: -0.125rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.subscriptionInputs {
+  width: 53.875rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.sectorsCountriesContainer,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subscribe {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-52xl) var(--padding-30xl) var(--padding-52xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.sectorsCountriesContainer {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-12xl);
+}
+.featuredCountriesContainer,
+.storyContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.featuredCountriesContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.storyContainer {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-crimson);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .countryNews {
+    flex: 1;
+  }
+  .storiesWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .subscribe {
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .featuredCountries {
+    font-size: var(--font-size-7xl);
+  }
+  .countryNews,
+  .storiesContent {
+    min-width: 100%;
+  }
+  .countryNews {
+    flex-wrap: wrap;
+  }
+  .stayInformedStayContainer {
+    font-size: var(--font-size-7xl);
+  }
+  .subscribe {
+    gap: var(--gap-lg);
+  }
+  .sectorsCountriesContainer {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .seeAll1 {
+    font-size: var(--font-size-base);
+  }
+  .featuredCountries {
+    font-size: var(--font-size-lgi);
+  }
+  .belgium,
+  .germany,
+  .seeAll3 {
+    font-size: var(--font-size-base);
+  }
+  .stayInformedStayContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .enterYourEmail {
+    font-size: var(--font-size-base);
+  }
+  .subscribe1 {
+    font-size: var(--font-size-lgi);
+  }
+  .subscribeFormFields1 {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,169 @@
+.steelIndustrial {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.title {
+  width: 78.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.placeholderIcon {
+  width: 27.438rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.strength {
+  position: relative;
+  display: inline-block;
+  min-width: 5.438rem;
+}
+.luxembourgsSteelAnd {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+  text-align: justify;
+}
+.strengthParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 15.75rem;
+  max-width: 100%;
+}
+.challenges,
+.theSteelAnd {
+  position: relative;
+  display: inline-block;
+}
+.challenges {
+  min-width: 7.563rem;
+}
+.theSteelAnd {
+  align-self: stretch;
+  height: 34.688rem;
+  color: var(--color-black);
+  text-align: justify;
+  flex-shrink: 0;
+}
+.challengesParent,
+.frameParent {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.challengesParent {
+  width: 22.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 22.75rem;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-35xl);
+  min-width: 32.688rem;
+}
+.body,
+.content,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.body {
+  width: 81.125rem;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-35xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.content {
+  margin-left: -0.375rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-31xl) var(--padding-112xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .placeholderIcon {
+    flex: 1;
+  }
+  .body {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .steelIndustrial {
+    font-size: var(--font-size-7xl);
+  }
+  .content {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-66xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .challengesParent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .body {
+    gap: var(--gap-8xl);
+  }
+  .content {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .steelIndustrial {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .luxembourgsSteelAnd,
+  .strength,
+  .theSteelAnd {
+    font-size: var(--font-size-base);
+  }
+  .frameParent {
+    gap: var(--gap-8xl);
+  }
+  .content {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}

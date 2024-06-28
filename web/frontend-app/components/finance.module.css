@@ -1,0 +1,103 @@
+.financeChild {
+  margin-top: -13.375rem;
+  width: 16.563rem;
+  height: 12.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.financeChild,
+.steelIndustrial {
+  position: relative;
+}
+.luxembourgsSteelAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+}
+.financeInner,
+.steelIndustrialParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.steelIndustrialParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.financeInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-7xl) 0 var(--padding-8xl);
+}
+.advanceIcon {
+  height: 1.188rem;
+  width: 1.188rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.188rem;
+}
+.view {
+  position: relative;
+  display: inline-block;
+  min-width: 1.875rem;
+}
+.finance,
+.financeActions,
+.viewAllButton,
+.viewAllLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewAllLink {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.finance,
+.financeActions,
+.viewAllButton {
+  flex-direction: row;
+}
+.financeActions {
+  border-radius: var(--br-smi);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-smi);
+  gap: var(--gap-4xs);
+  cursor: pointer;
+}
+.finance,
+.viewAllButton {
+  padding: 0 var(--padding-8xl);
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+}
+.finance {
+  height: 21.75rem;
+  width: 15.813rem;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-185xl) 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg-5);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .finance {
+    padding-top: var(--padding-114xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .steelIndustrial {
+    font-size: var(--font-size-base);
+  }
+}

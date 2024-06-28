@@ -1,0 +1,95 @@
+.interviewsContent {
+  height: 1.125rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.ict {
+  position: relative;
+  display: inline-block;
+  min-width: 1.438rem;
+}
+.ictWrapper,
+.interviewsContentParent,
+.news1Inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ictWrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.interviewsContentParent,
+.news1Inner {
+  flex-direction: row;
+}
+.interviewsContentParent {
+  gap: var(--gap-7xs);
+}
+.news1Inner {
+  padding: 0 var(--padding-12xs);
+}
+.thMarch2024,
+.theSubstantialRole {
+  position: relative;
+  display: inline-block;
+}
+.theSubstantialRole {
+  margin: 0;
+  width: 37.375rem;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.thMarch2024 {
+  min-width: 6.438rem;
+}
+.news1,
+.thMarch2024Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.news1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-242xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-26xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  background-image: url(/news1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .theSubstantialRole {
+    font-size: var(--font-size-7xl);
+  }
+  .news1 {
+    padding-left: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theSubstantialRole {
+    font-size: var(--font-size-lgi);
+  }
+  .news1 {
+    padding-top: var(--padding-151xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

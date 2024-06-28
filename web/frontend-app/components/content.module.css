@@ -1,0 +1,170 @@
+.finance {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 7.75rem;
+}
+.financeWrapper {
+  width: 69.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.strengthPlaceholderIcon {
+  width: 27.438rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.strength {
+  position: relative;
+  display: inline-block;
+  min-width: 5.438rem;
+}
+.contributingToThis,
+.luxembourgStandsProudly,
+.theseFactorsCollectively {
+  margin: 0;
+}
+.luxembourgStandsProudlyContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+  text-align: justify;
+}
+.strengthItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 15.75rem;
+  max-width: 100%;
+}
+.challenges {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.despiteItsStanding {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+  text-align: justify;
+}
+.challengeItem {
+  width: 22.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 22.75rem;
+  max-width: 100%;
+}
+.highlights,
+.strengthPlaceholderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-35xl);
+  max-width: 100%;
+}
+.highlights {
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 32.688rem;
+}
+.strengthPlaceholderParent {
+  width: 81.125rem;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+}
+.content {
+  margin-left: -0.375rem;
+  margin-bottom: 2.062rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-31xl) var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .strengthPlaceholderIcon {
+    flex: 1;
+  }
+  .strengthPlaceholderParent {
+    flex-wrap: wrap;
+  }
+  .content {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .finance {
+    font-size: var(--font-size-7xl);
+  }
+  .content {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .challengeItem {
+    flex: 1;
+    min-width: 100%;
+  }
+  .highlights {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .strengthPlaceholderParent {
+    gap: var(--gap-8xl);
+  }
+  .content {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .finance {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .despiteItsStanding,
+  .luxembourgStandsProudlyContainer,
+  .strength {
+    font-size: var(--font-size-base);
+  }
+  .highlights {
+    gap: var(--gap-8xl);
+  }
+  .content {
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

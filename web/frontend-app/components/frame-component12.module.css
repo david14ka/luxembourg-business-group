@@ -1,0 +1,150 @@
+.germany {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.germanyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-45xl);
+}
+.frameChild {
+  width: 21.875rem;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameChild,
+.whyGermany {
+  position: relative;
+}
+.secondInTheWorldInThe202 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.secondInTheContainer {
+  width: 21.875rem;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.whyGermanyParent {
+  width: 24.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.challenges {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.germanyChallengesContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.digitalizationAndAutomation {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.digitalizationAndAutomationContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.germanyChallengesContentParent {
+  width: 21.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.frameParent {
+  margin-left: -0.375rem;
+  margin-bottom: 2.437rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-87xl) var(--padding-27xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .germany {
+    font-size: var(--font-size-7xl);
+  }
+  .frameGroup {
+    gap: var(--gap-16xl);
+  }
+  .frameParent {
+    gap: var(--gap-13xl);
+    padding: var(--padding-4xl) var(--padding-34xl) var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .germany {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .digitalizationAndAutomationContainer,
+  .secondInTheContainer,
+  .whyGermany {
+    font-size: var(--font-size-base);
+  }
+  .frameGroup {
+    gap: var(--gap-mid);
+  }
+  .frameParent {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

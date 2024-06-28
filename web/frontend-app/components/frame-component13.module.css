@@ -1,0 +1,79 @@
+.frameChild {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.aNewGlobal,
+.frameChild,
+.theIeaHighlighted {
+  align-self: stretch;
+  position: relative;
+}
+.frameItem {
+  height: 1rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.posted25Min {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.financePostedContainer {
+  position: relative;
+}
+.aNewGlobalEnergyEconomyWaParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-crimson);
+}
+.aNewGlobalEnergyEconomyWaParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-base);
+}
+.theIeaHighlightedAlmostTwoParent {
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameParent,
+.frameWrapper,
+.theIeaHighlightedAlmostTwoParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-smi) 0 var(--padding-10xs);
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.frameWrapper {
+  height: 29rem;
+  flex-direction: row;
+  padding: 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .theIeaHighlighted {
+    font-size: var(--font-size-base);
+  }
+}

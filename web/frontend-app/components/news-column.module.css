@@ -1,0 +1,164 @@
+.frameChild {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.energyTechnologyPerspectives,
+.frameChild,
+.theAnalysisShows {
+  align-self: stretch;
+  position: relative;
+}
+.theAnalysisShows {
+  font-size: var(--font-size-base);
+}
+.posted25Min {
+  position: relative;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.energyTechnologyPerspectivesParent,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+}
+.frameParent {
+  height: 27.5rem;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.frameItem {
+  height: 16.75rem;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.energyTechnologyPerspectives1,
+.frameItem,
+.theAnalysisShows1 {
+  align-self: stretch;
+  position: relative;
+}
+.posted25Min1 {
+  position: relative;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.energyTechnologyPerspectivesGroup,
+.frameContainer,
+.theAnalysisShowsTheGlobalParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.theAnalysisShowsTheGlobalParent {
+  gap: var(--gap-smi);
+  font-size: var(--font-size-base);
+}
+.energyTechnologyPerspectivesGroup,
+.frameContainer {
+  gap: var(--gap-4xs);
+}
+.frameContainer {
+  height: 27.5rem;
+  padding: var(--padding-smi) 0 var(--padding-140xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.frameInner {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.energyTechnologyPerspectives2,
+.frameInner,
+.theAnalysisShows2 {
+  align-self: stretch;
+  position: relative;
+}
+.theAnalysisShows2 {
+  font-size: var(--font-size-base);
+}
+.posted25Min2 {
+  position: relative;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.energyTechnologyPerspectivesContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+}
+.frameDiv {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-smi) 0 0;
+  gap: var(--gap-base);
+  cursor: pointer;
+}
+.frameDiv,
+.frameGroup,
+.newsColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  height: 57.375rem;
+  gap: var(--gap-19xl);
+}
+.newsColumn {
+  flex: 1;
+  gap: var(--gap-43xl);
+  min-width: 16.063rem;
+  max-width: 17.438rem;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .frameContainer {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-84xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .energyTechnologyPerspectives,
+  .energyTechnologyPerspectives1,
+  .energyTechnologyPerspectives2 {
+    font-size: var(--font-size-base);
+  }
+  .frameGroup {
+    gap: var(--gap-lgi);
+  }
+  .newsColumn {
+    gap: var(--gap-12xl);
+  }
+}

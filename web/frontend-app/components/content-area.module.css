@@ -1,0 +1,341 @@
+.nameInput {
+  width: 0.5rem;
+  height: 2.063rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.nameField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.nameFieldParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.getInTouch1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: justify;
+}
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.addressIcon {
+  position: absolute;
+  top: 0.438rem;
+  left: 0.688rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+.addressField {
+  align-self: stretch;
+  height: 3.938rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addressDetails {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.ourLocation {
+  position: relative;
+  display: inline-block;
+  min-width: 7.875rem;
+}
+.skyviewRanchRd {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.addressContainer,
+.addressInfo {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addressInfo {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+  min-width: 15.188rem;
+}
+.addressContainer {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+}
+.addressContainerWrapper,
+.formContainer,
+.formContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addressContainerWrapper {
+  width: 30.625rem;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: var(--font-size-xl);
+}
+.formContainer,
+.formContainerWrapper {
+  flex-direction: column;
+}
+.formContainer {
+  align-self: stretch;
+  gap: var(--gap-49xl);
+}
+.formContainerWrapper {
+  width: 34.563rem;
+  padding: var(--padding-58xl) 0 0;
+  box-sizing: border-box;
+  min-width: 34.563rem;
+}
+.fullName {
+  display: inline-block;
+  min-width: 6rem;
+}
+.enterYourFull,
+.fullName {
+  position: relative;
+}
+.fullNameContainer,
+.fullNameInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fullNameContainer {
+  flex: 1;
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  padding: var(--padding-5xl) var(--padding-9xl);
+  white-space: nowrap;
+}
+.fullNameInput {
+  align-self: stretch;
+  padding: 0 0 var(--padding-6xs);
+  color: var(--color-darkgray);
+}
+.email {
+  display: inline-block;
+  min-width: 3.313rem;
+}
+.email,
+.enterYourEmail {
+  position: relative;
+}
+.contactFields,
+.contactInputs {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInputs {
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-9xl);
+  white-space: nowrap;
+  color: var(--color-darkgray);
+}
+.contactFields {
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xs);
+  gap: var(--gap-base);
+}
+.typeYourText,
+.yourMessage {
+  position: relative;
+}
+.contactFields1,
+.typeYourTextHereWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typeYourTextHereWrapper {
+  flex: 1;
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-9xl);
+  color: var(--color-darkgray);
+}
+.contactFields1 {
+  height: 22rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+}
+.submit {
+  position: relative;
+  display: inline-block;
+  min-width: 4.375rem;
+}
+.submitButton {
+  align-self: stretch;
+  border-radius: var(--br-smi);
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-2xl)
+    var(--padding-2xl);
+  color: var(--color-white);
+}
+.contactForm,
+.contentArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactForm {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-52xl) var(--padding-88xl) var(--padding-20xl)
+    var(--padding-92xl);
+  gap: var(--gap-base);
+  min-width: 28.5rem;
+  text-align: justify;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.contentArea {
+  width: 85.5rem;
+  flex-direction: row;
+  padding: 0 0 var(--padding-30xl) var(--padding-xl);
+  gap: var(--gap-75xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .formContainerWrapper {
+    flex: 1;
+  }
+  .contentArea {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .getInTouch {
+    font-size: var(--font-size-13xl);
+  }
+  .contactForm {
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .contentArea {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .formContainer {
+    gap: var(--gap-15xl);
+  }
+  .contactForm,
+  .formContainerWrapper {
+    min-width: 100%;
+  }
+  .contactForm {
+    padding-left: var(--padding-36xl);
+    padding-right: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .contentArea {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .getInTouch {
+    font-size: var(--font-size-5xl);
+  }
+  .getInTouch1,
+  .ourLocation,
+  .skyviewRanchRd {
+    font-size: var(--font-size-base);
+  }
+  .addressContainer {
+    flex-wrap: wrap;
+  }
+  .formContainer {
+    gap: var(--gap-mid);
+  }
+  .formContainerWrapper {
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .email,
+  .fullName,
+  .submit,
+  .typeYourText,
+  .yourMessage {
+    font-size: var(--font-size-base);
+  }
+  .contactForm {
+    padding: var(--padding-11xl) var(--padding-xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .contentArea {
+    gap: var(--gap-4xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}

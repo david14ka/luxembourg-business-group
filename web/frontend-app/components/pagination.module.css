@@ -1,0 +1,209 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-600);
+  width: 100%;
+  height: 100%;
+}
+.forwardIcon {
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  width: 2rem;
+  height: 3rem;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+.span {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.placeholder {
+  position: relative;
+}
+.nextButton {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke-500);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-17xl) var(--padding-2xs)
+    var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: calc(100% - 124px);
+}
+.previousButtonChild {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  object-fit: contain;
+}
+.pageButtons,
+.previousButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.previousButton {
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.pageButtons {
+  width: 78.75rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.getTheLatest {
+  color: var(--color-crimson);
+}
+.stayInformedStayContainer {
+  margin: 0;
+  width: 53.75rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.enterYourEmail {
+  position: relative;
+}
+.formFields {
+  flex: 1;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-14xl);
+  min-width: 14.688rem;
+  max-width: 100%;
+}
+.subscribe {
+  position: relative;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.emailForm,
+.formFields1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.formFields1 {
+  background-color: var(--color-crimson);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-37xl) var(--padding-lg);
+  z-index: 1;
+  margin-left: -0.125rem;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.emailForm {
+  width: 53.875rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  row-gap: 20px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.newsletter,
+.pagination,
+.paginationControls {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.newsletter {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-52xl) var(--padding-4xl) var(--padding-52xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-18xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+}
+.pagination,
+.paginationControls {
+  align-items: flex-start;
+}
+.paginationControls {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-58xl);
+}
+.pagination {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-60xl) var(--padding-88xl) var(--padding-59xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .stayInformedStayContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .nextButton {
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .paginationControls {
+    gap: var(--gap-19xl);
+  }
+  .pagination {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    padding-bottom: var(--padding-51xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placeholder {
+    font-size: var(--font-size-base);
+  }
+  .stayInformedStayContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .enterYourEmail {
+    font-size: var(--font-size-base);
+  }
+  .subscribe {
+    font-size: var(--font-size-lgi);
+  }
+  .formFields1 {
+    margin-left: 0;
+  }
+  .newsletter {
+    gap: var(--gap-lg);
+  }
+  .paginationControls {
+    gap: var(--gap-lgi);
+  }
+}
