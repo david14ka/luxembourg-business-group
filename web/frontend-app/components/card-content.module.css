@@ -1,0 +1,61 @@
+.cardContentChild {
+  height: 16.75rem;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cardContentChild,
+.energyTechnologyPerspectives,
+.theAnalysisShows {
+  align-self: stretch;
+  position: relative;
+}
+.posted25Min {
+  position: relative;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.theAnalysisShowsTheGlobalParent {
+  align-self: stretch;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-base);
+}
+.cardContent,
+.energyTechnologyPerspectivesParent,
+.theAnalysisShowsTheGlobalParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.energyTechnologyPerspectivesParent {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.cardContent {
+  height: 27.5rem;
+  width: 17.438rem;
+  padding: var(--padding-smi) 0 var(--padding-140xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .cardContent {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-84xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .energyTechnologyPerspectives {
+    font-size: var(--font-size-base);
+  }
+}

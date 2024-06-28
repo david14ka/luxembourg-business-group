@@ -1,0 +1,217 @@
+.termsOfUse {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.termsOfUseWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-88xl);
+}
+.useOfWebsite1 {
+  font-family: var(--font-inter);
+}
+.useOfWebsite {
+  margin: 0;
+}
+.youMustBe {
+  font-family: var(--font-inter);
+}
+.youMustBeAtLeast18Years {
+  margin: 0;
+}
+.youMayNot {
+  font-family: var(--font-inter);
+}
+.youMayNotUseTheWebsiteFo {
+  margin: 0;
+}
+.youAreResponsible {
+  font-family: var(--font-inter);
+}
+.youAreResponsibleForMainta {
+  margin: 0;
+}
+.blankLine1 {
+  font-family: var(--font-inter);
+}
+.blankLine {
+  margin: 0;
+}
+.intellectualProperty1 {
+  font-family: var(--font-inter);
+}
+.intellectualProperty {
+  margin: 0;
+}
+.theWebsiteAnd {
+  font-family: var(--font-inter);
+}
+.theWebsiteAndItsOriginalC {
+  margin: 0;
+}
+.youMayNot1 {
+  font-family: var(--font-inter);
+}
+.youMayNotModifyReproduce {
+  margin: 0;
+}
+.blankLine3 {
+  font-family: var(--font-inter);
+}
+.blankLine2 {
+  margin: 0;
+}
+.limitationOfLiability1 {
+  font-family: var(--font-inter);
+}
+.limitationOfLiability {
+  margin: 0;
+}
+.techdarajaShallNot {
+  font-family: var(--font-inter);
+}
+.techdarajaShallNotBeLiable {
+  margin: 0;
+}
+.blankLine5 {
+  font-family: var(--font-inter);
+}
+.blankLine4 {
+  margin: 0;
+}
+.indemnification1 {
+  font-family: var(--font-inter);
+}
+.indemnification {
+  margin: 0;
+}
+.youAgreeTo {
+  font-family: var(--font-inter);
+}
+.youAgreeToDefendIndemnify {
+  margin: 0;
+}
+.blankLine7 {
+  font-family: var(--font-inter);
+}
+.blankLine6 {
+  margin: 0;
+}
+.governingLaw1 {
+  font-family: var(--font-inter);
+}
+.governingLaw {
+  margin: 0;
+}
+.theseTermsShall {
+  font-family: var(--font-inter);
+}
+.theseTermsShallBeGoverned {
+  margin: 0;
+}
+.blankLine9 {
+  font-family: var(--font-inter);
+}
+.blankLine8 {
+  margin: 0;
+}
+.changesToTerms1 {
+  font-family: var(--font-inter);
+}
+.changesToTerms {
+  margin: 0;
+}
+.techdarajaReservesThe {
+  font-family: var(--font-inter);
+}
+.techdarajaReservesTheRight {
+  margin: 0;
+}
+.blankLine11 {
+  font-family: var(--font-inter);
+}
+.blankLine10 {
+  margin: 0;
+}
+.contactUs1 {
+  font-family: var(--font-inter);
+}
+.contactUs {
+  margin: 0;
+}
+.infotechdarajacom1 {
+  text-decoration: underline;
+}
+.infotechdarajacom {
+  color: inherit;
+}
+.ifYouHaveAnyQuestionsAbou {
+  margin: 0;
+}
+.useOfWebsiteContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: inherit;
+}
+.footer,
+.footerContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.footer {
+  width: 88.75rem;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-47xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .termsOfUse {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .termsOfUseWrapper {
+    padding-left: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .footerContent {
+    gap: var(--gap-lgi);
+  }
+  .footer {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .termsOfUse {
+    font-size: var(--font-size-19xl);
+  }
+  .termsOfUseWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .useOfWebsiteContainer {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,63 @@
+.rDTitle {
+  height: 0.938rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.finance {
+  position: relative;
+  display: inline-block;
+  min-width: 2.438rem;
+}
+.financeWrapper,
+.rDTitleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.financeWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.rDTitleParent {
+  flex-direction: row;
+  gap: var(--gap-7xs);
+}
+.livingHope,
+.theArtStudio {
+  margin: 0;
+}
+.theArtStudioContainer {
+  position: relative;
+  font-size: var(--font-size-xl);
+}
+.thMarch2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 4.938rem;
+}
+.news3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-76xl) var(--padding-xl) var(--padding-3xl)
+    var(--padding-8xl);
+  gap: var(--gap-7xs);
+  background-image: url(/news3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .theArtStudioContainer {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,135 @@
+.frameChild {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 38.813rem;
+}
+.frameChild,
+.frameIcon,
+.frameInner,
+.frameItem {
+  position: absolute;
+  border-radius: var(--br-smi);
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameItem {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 64.75rem;
+  max-height: 100%;
+  width: 25.625rem;
+}
+.frameIcon,
+.frameInner {
+  top: 5.188rem;
+  left: 39.438rem;
+  width: 24.688rem;
+  height: 17.188rem;
+}
+.frameIcon {
+  left: 91rem;
+}
+.frameParent {
+  width: 115.688rem;
+  height: 22.375rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.previous {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke-600);
+  width: 100%;
+  height: 100%;
+}
+.forwardIcon {
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  width: 2rem;
+  height: 3rem;
+  object-fit: contain;
+  z-index: 1;
+}
+.previousParent {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+}
+.span {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.placeholder {
+  position: relative;
+}
+.sliderPlaceholder {
+  border-radius: var(--br-13xl);
+  background-color: var(--color-whitesmoke-500);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-17xl) var(--padding-2xs)
+    var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: calc(100% - 124px);
+}
+.sliderNavigationChild {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  object-fit: contain;
+}
+.footerSlider,
+.sliderNavigation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sliderNavigation {
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.footerSlider {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-8xl);
+  box-sizing: border-box;
+}
+.usa {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .sliderPlaceholder {
+    padding-left: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .placeholder {
+    font-size: var(--font-size-base);
+  }
+}

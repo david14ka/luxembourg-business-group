@@ -1,0 +1,173 @@
+.rdAndInnovation {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.innovationTitle {
+  width: 80.688rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.emptyColumnIcon {
+  width: 27.438rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.strength {
+  position: relative;
+  display: inline-block;
+  min-width: 5.438rem;
+}
+.luxembourgProudlyStands {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+  text-align: justify;
+}
+.strengthContent {
+  width: 21.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 21.875rem;
+  max-width: 100%;
+}
+.challenges,
+.luxembourgsPursuitOf {
+  position: relative;
+  display: inline-block;
+}
+.challenges {
+  min-width: 7.563rem;
+}
+.luxembourgsPursuitOf {
+  flex: 1;
+  max-width: 100%;
+}
+.challengeContent,
+.challengeDescription {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.challengeDescription {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  text-align: justify;
+  color: var(--color-black);
+}
+.challengeContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 19.188rem;
+}
+.contentColumn,
+.contentColumns,
+.innovationTitleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contentColumn {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+  min-width: 35.188rem;
+}
+.contentColumns,
+.innovationTitleParent {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-35xl);
+  font-size: var(--font-size-xl);
+}
+.innovationTitleParent {
+  margin-left: -0.375rem;
+  margin-bottom: 0.812rem;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-35xl) var(--padding-23xl) var(--padding-lgi)
+    var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-27xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1325px) {
+  .emptyColumnIcon {
+    flex: 1;
+  }
+  .contentColumns {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .innovationTitleParent {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rdAndInnovation {
+    font-size: var(--font-size-7xl);
+  }
+  .strengthContent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .contentColumn {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .contentColumns {
+    gap: var(--gap-8xl);
+  }
+  .innovationTitleParent {
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rdAndInnovation {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .luxembourgProudlyStands,
+  .luxembourgsPursuitOf,
+  .strength {
+    font-size: var(--font-size-base);
+  }
+  .contentColumn {
+    gap: var(--gap-2xl);
+  }
+  .innovationTitleParent {
+    padding-top: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}

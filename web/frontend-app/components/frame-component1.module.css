@@ -1,0 +1,273 @@
+.highlights {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.collapseArrowIcon {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  object-fit: contain;
+  mix-blend-mode: normal;
+}
+.collapseArrowWrapper {
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.posted25thApril,
+.topRankedHotels {
+  position: relative;
+  display: inline-block;
+  max-width: 97%;
+}
+.posted25thApril {
+  font-size: var(--font-size-2xs);
+  min-width: 5.688rem;
+  max-width: 57%;
+}
+.latestArticlesContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.topRankedHotels1 {
+  position: relative;
+}
+.posted25thApril1 {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  min-width: 5.688rem;
+}
+.latestArticlesContent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.topRankedHotels2 {
+  position: relative;
+}
+.posted25thApril2 {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  min-width: 5.688rem;
+}
+.latestArticlesContent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.posted25thApril3,
+.topRankedHotels3 {
+  position: relative;
+  display: inline-block;
+  max-width: 96%;
+}
+.posted25thApril3 {
+  font-size: var(--font-size-2xs);
+  min-width: 5.688rem;
+  max-width: 57%;
+}
+.latestArticlesContent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.posted25thApril4,
+.topRankedHotels4 {
+  position: relative;
+  display: inline-block;
+  max-width: 95%;
+}
+.posted25thApril4 {
+  font-size: var(--font-size-2xs);
+  min-width: 5.688rem;
+  max-width: 57%;
+}
+.latestArticlesContent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.topRankedHotels5 {
+  position: relative;
+}
+.posted25thApril5 {
+  position: relative;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  min-width: 5.688rem;
+}
+.latestArticlesContent5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-147xl) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-12xs);
+  background-image: url(/latest-articles-content5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.latestArticlesContentParent {
+  flex: 1;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs-2);
+  min-width: 48.563rem;
+  max-width: 100%;
+  grid-template-columns: repeat(6, minmax(143px, 1fr));
+}
+.collapseArrowIcon1 {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+  object-fit: contain;
+  mix-blend-mode: normal;
+}
+.collapseArrowContainer {
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.collapseArrowIcon2 {
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 4.563rem;
+  left: calc(50% - 24px);
+  object-fit: contain;
+  z-index: 1;
+}
+.articles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs-5);
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.newsImage,
+.newsItem {
+  height: 0.5rem;
+  border-radius: var(--br-mid);
+}
+.newsItem {
+  width: 75.75rem;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  max-width: 100%;
+}
+.newsImage {
+  width: 25.875rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0.938rem;
+  left: 7.875rem;
+  background-color: var(--color-gainsboro);
+  z-index: 1;
+}
+.hightlights,
+.hightlightsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hightlights {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-lgi);
+  position: relative;
+  gap: var(--gap-10xl);
+}
+.hightlightsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1150px) {
+  .latestArticlesContentParent {
+    justify-content: center;
+    grid-template-columns: repeat(3, minmax(143px, 248px));
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .highlights {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .highlights {
+    font-size: var(--font-size-lgi);
+  }
+  .latestArticlesContentParent {
+    grid-template-columns: minmax(143px, 1fr);
+  }
+}

@@ -1,0 +1,63 @@
+.thirdNewsItemImage {
+  flex: 1;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.energyTechnologyPerspectives,
+.theAnalysisShows,
+.thirdNewsItemImage {
+  align-self: stretch;
+  position: relative;
+}
+.theAnalysisShows {
+  font-size: var(--font-size-base);
+}
+.thirdNewsItemTypeIcon {
+  height: 1rem;
+  width: 0.5rem;
+  position: relative;
+  background-color: var(--color-crimson);
+}
+.posted25Min {
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.financePostedContainer {
+  position: relative;
+}
+.thirdNewsItemFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-smi);
+  color: var(--color-crimson);
+}
+.energyTechnologyPerspectivesParent,
+.thirdNewsItemImageParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.thirdNewsItemImageParent {
+  flex: 1;
+  padding: var(--padding-smi) 0 var(--padding-10xs);
+  gap: var(--gap-base);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .energyTechnologyPerspectives {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,57 @@
+.relatedArticleImagePlacehol {
+  height: 11.5rem;
+  border-radius: var(--br-smi);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.jpMorgansPresence,
+.relatedArticleImagePlacehol {
+  align-self: stretch;
+  position: relative;
+}
+.thFebruary2024 {
+  position: relative;
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.rcnews3,
+.relatedArticleContent,
+.relatedArticleDateContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.relatedArticleDateContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray);
+}
+.rcnews3,
+.relatedArticleContent {
+  flex-direction: column;
+}
+.relatedArticleContent {
+  align-self: stretch;
+  gap: var(--gap-2xs);
+}
+.rcnews3 {
+  flex: 1;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 14.25rem;
+  max-width: 14.5rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .jpMorgansPresence {
+    font-size: var(--font-size-base);
+  }
+}

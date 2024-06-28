@@ -1,0 +1,520 @@
+.subCountryListChild {
+  width: 0.5rem;
+  height: 2.063rem;
+  position: relative;
+  background-color: var(--color-crimson);
+  z-index: 1;
+}
+.subCountryList1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.introduction {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.subCountryList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.welcomeToLuxembourg {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: justify;
+}
+.countryList,
+.countryListWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.countryList {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.countryListWrapper {
+  width: 34.75rem;
+  padding: var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  min-width: 34.75rem;
+  max-width: 100%;
+}
+.frameChild {
+  height: 24.938rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 25.75rem;
+}
+.aboutInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  padding: var(--padding-78xl) 5.125rem var(--padding-29xl) 5.625rem;
+  gap: 4.875rem;
+}
+.aboutInner {
+  align-self: stretch;
+  padding: 0 0 5.062rem;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+.frameItem {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 38.813rem;
+}
+.frameChild1,
+.frameIcon,
+.frameInner,
+.frameItem {
+  position: absolute;
+  border-radius: var(--br-smi);
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameInner {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 64.75rem;
+  max-height: 100%;
+  width: 25.625rem;
+}
+.frameChild1,
+.frameIcon {
+  top: 5.188rem;
+  left: 39.438rem;
+  width: 24.688rem;
+  height: 17.188rem;
+}
+.frameChild1 {
+  left: 91rem;
+}
+.frameGroup {
+  width: 115.688rem;
+  height: 22.375rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.rectangleDiv {
+  width: 0.5rem;
+  height: 2.063rem;
+  position: relative;
+  background-color: var(--color-crimson);
+  z-index: 1;
+}
+.rectangleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.ourVision {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ourImpactfulReports {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: justify;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-27xl);
+}
+.frameWrapper {
+  width: 31.625rem;
+  padding: 0 0 var(--padding-41xl);
+  box-sizing: border-box;
+  min-width: 31.625rem;
+  min-height: 20.375rem;
+  max-width: 100%;
+}
+.frameChild2 {
+  height: 26.625rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 22.313rem;
+}
+.aboutChild,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-34xl) 8.25rem var(--padding-66xl) 6.875rem;
+  gap: 8.875rem;
+}
+.aboutChild {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-84xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+.countriesWePartner {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.partnerContent1 {
+  width: 69.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.theFollowingShowcased {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  text-align: center;
+}
+.partnerContent,
+.partnerContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.partnerContent {
+  width: 74.625rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.partnerContentWrapper {
+  width: 85.25rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+.belgium {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 8rem;
+}
+.belgiumContent {
+  width: 76.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.belgiumWhyIcon {
+  width: 21.875rem;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.whyBelgium {
+  position: relative;
+  display: inline-block;
+  min-width: 8.063rem;
+}
+.ranked12thInTheWorldInTh {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.ranked12thInContainer {
+  width: 21.875rem;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.belgiumWhy {
+  width: 24.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.challenges {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.belgiumChallengesContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.globalCompetitionAndDigital {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.globalCompetitionAndContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.belgiumChallenges,
+.belgiumDetails {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.belgiumChallenges {
+  width: 21.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.belgiumDetails {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  font-size: var(--font-size-xl);
+}
+.about,
+.belgiumContentParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.belgiumContentParent {
+  margin-right: -0.125rem;
+  margin-bottom: 2.25rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  align-items: center;
+  padding: var(--padding-26xl) var(--padding-xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    gap: var(--gap-20xl);
+    padding-left: var(--padding-26xl);
+    padding-right: 2.563rem;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    gap: 4.438rem;
+    padding-left: var(--padding-36xl);
+    padding-right: var(--padding-47xl);
+    box-sizing: border-box;
+  }
+  .belgiumDetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .countryListWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .frameWrapper {
+    flex: 1;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .introduction {
+    font-size: var(--font-size-13xl);
+  }
+  .countryList {
+    gap: var(--gap-mid);
+  }
+  .countryListWrapper,
+  .frameChild {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-lgi);
+    padding-left: var(--padding-3xl);
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .aboutInner {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+  .ourVision {
+    font-size: var(--font-size-13xl);
+  }
+  .frameDiv {
+    gap: var(--gap-4xl);
+  }
+  .frameChild2,
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameContainer {
+    gap: var(--gap-16xl);
+    padding: var(--padding-15xl) var(--padding-14xl) var(--padding-36xl)
+      var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .aboutChild {
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .countriesWePartner {
+    font-size: var(--font-size-13xl);
+  }
+  .partnerContent {
+    gap: var(--gap-lgi);
+  }
+  .belgium {
+    font-size: var(--font-size-7xl);
+  }
+  .belgiumDetails {
+    gap: var(--gap-16xl);
+  }
+  .belgiumContentParent {
+    gap: var(--gap-13xl);
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .introduction {
+    font-size: var(--font-size-5xl);
+  }
+  .welcomeToLuxembourg {
+    font-size: var(--font-size-base);
+  }
+  .ourVision {
+    font-size: var(--font-size-5xl);
+  }
+  .ourImpactfulReports {
+    font-size: var(--font-size-base);
+  }
+  .frameContainer {
+    gap: var(--gap-lg);
+  }
+  .countriesWePartner {
+    font-size: var(--font-size-5xl);
+  }
+  .theFollowingShowcased {
+    font-size: var(--font-size-base);
+  }
+  .belgium {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .globalCompetitionAndContainer,
+  .ranked12thInContainer,
+  .whyBelgium {
+    font-size: var(--font-size-base);
+  }
+  .belgiumDetails {
+    gap: var(--gap-mid);
+  }
+  .belgiumContentParent {
+    gap: var(--gap-base);
+  }
+}

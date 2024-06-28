@@ -1,0 +1,156 @@
+.usa {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 4.25rem;
+}
+.uSABanner {
+  width: 76.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.spacerIcon {
+  width: 21.875rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 22.25rem;
+  max-width: 100%;
+}
+.whyUsa {
+  position: relative;
+  display: inline-block;
+  min-width: 5.75rem;
+}
+.globalEconomicGiantMaking {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.globalEconomicGiantContainer {
+  width: 21.875rem;
+  position: relative;
+  color: var(--color-black);
+  display: inline-block;
+  max-width: 100%;
+}
+.whyUSA {
+  width: 24.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.challenges1 {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.challengesTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.housingCrisisWithRisingPr {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.housingCrisisWithContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.challenges,
+.uSADetails,
+.uSAHighlight {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.challenges {
+  width: 21.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.uSADetails,
+.uSAHighlight {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  font-size: var(--font-size-xl);
+}
+.uSAHighlight {
+  margin-right: -0.313rem;
+  margin-bottom: 2.437rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-87xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .uSADetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .usa {
+    font-size: var(--font-size-7xl);
+  }
+  .uSADetails {
+    gap: var(--gap-16xl);
+  }
+  .uSAHighlight {
+    gap: var(--gap-13xl);
+    padding: var(--padding-4xl) var(--padding-34xl) var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .usa {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges1,
+  .globalEconomicGiantContainer,
+  .housingCrisisWithContainer,
+  .whyUsa {
+    font-size: var(--font-size-base);
+  }
+  .uSADetails {
+    gap: var(--gap-mid);
+  }
+  .uSAHighlight {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,307 @@
+.shareDivider {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.shareIcon {
+  height: 1.375rem;
+  width: 1.375rem;
+  position: relative;
+  object-fit: contain;
+  min-height: 1.375rem;
+}
+.sharePost {
+  position: relative;
+  display: inline-block;
+  min-width: 5.313rem;
+}
+.shareLabelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.shareButtonLabelContainer,
+.shareButtonLabelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shareButtonLabelWrapper {
+  border-radius: var(--br-mid);
+  border: 1px solid var(--color-black);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-mid);
+  gap: var(--gap-mini);
+}
+.shareButtonLabelContainer {
+  padding: 0 var(--padding-9xs);
+}
+.shareButtonContainer,
+.shareButtonWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.shareButtonWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.shareButtonContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.rcnews3Icon {
+  height: 11.5rem;
+  width: 14.375rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  object-fit: cover;
+}
+.previousArticle {
+  flex: 1;
+  position: relative;
+  white-space: pre-wrap;
+}
+.previousArticleTitleWrapper {
+  width: 12.813rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.jpMorgansPresence {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.previousArticleTitleContain {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.prev,
+.previousArticleContent {
+  flex: 1;
+  display: flex;
+  max-width: 100%;
+}
+.previousArticleContent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xl);
+  box-sizing: border-box;
+  min-width: 13.25rem;
+}
+.prev {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+  min-width: 23.75rem;
+  cursor: pointer;
+}
+.nextArticle {
+  position: relative;
+  white-space: pre-wrap;
+}
+.nextArticleTitleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.deutscheBankLuxembourg {
+  width: 17.813rem;
+  position: relative;
+  display: inline-block;
+  color: var(--color-black);
+  text-align: right;
+}
+.nextArticleContent,
+.nextArticleLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nextArticleContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.nextArticleLink {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xl);
+  box-sizing: border-box;
+  min-width: 11.813rem;
+}
+.rcnews3Icon1 {
+  height: 11.5rem;
+  width: 14.375rem;
+  position: relative;
+  object-fit: cover;
+}
+.next {
+  width: 34.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  min-width: 34.5rem;
+  max-width: 100%;
+  cursor: pointer;
+}
+.articleNavigationContainer,
+.articleNavigationItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.articleNavigationItems {
+  flex: 1;
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke-300);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-53xl) var(--padding-14xl)
+    var(--padding-54xl);
+  gap: var(--gap-sm);
+  min-height: 16.813rem;
+}
+.articleNavigationContainer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-3xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+}
+.relatedArticles {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.relatedArticlesTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.relatedArticlesContainer,
+.relatedArticlesList {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.relatedArticlesList {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-18xl-5);
+  font-size: var(--font-size-xl);
+}
+.relatedArticlesContainer {
+  flex-direction: column;
+  gap: var(--gap-27xl);
+  font-size: var(--font-size-13xl);
+}
+.socialShareContainer,
+.socialShareItems {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialShareItems {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-16xl);
+}
+.socialShareContainer {
+  width: 82.188rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-11xs) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1300px) {
+  .next {
+    flex: 1;
+  }
+  .articleNavigationItems {
+    flex-wrap: wrap;
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .next {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rcnews3Icon {
+    flex: 1;
+  }
+  .prev {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .rcnews3Icon1 {
+    flex: 1;
+  }
+  .next {
+    flex-wrap: wrap;
+    gap: var(--gap-mini);
+  }
+  .relatedArticles {
+    font-size: var(--font-size-7xl);
+  }
+  .relatedArticlesList {
+    gap: var(--gap-lgi);
+  }
+  .relatedArticlesContainer {
+    gap: var(--gap-4xl);
+  }
+  .socialShareItems {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .deutscheBankLuxembourg,
+  .jpMorgansPresence,
+  .nextArticle,
+  .previousArticle {
+    font-size: var(--font-size-base);
+  }
+  .relatedArticles {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,96 @@
+.uSALocationItems {
+  align-self: stretch;
+  height: 11.625rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.usa {
+  width: 3.313rem;
+  position: relative;
+  display: inline-block;
+}
+.luxembourgStandsAs {
+  align-self: stretch;
+  position: relative;
+}
+.advanceIcon {
+  height: 1.188rem;
+  width: 1.188rem;
+  position: relative;
+  object-fit: cover;
+  min-height: 1.188rem;
+}
+.view {
+  position: relative;
+  display: inline-block;
+  min-width: 1.875rem;
+}
+.moreDetails,
+.uSAButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.uSAButton {
+  border-radius: var(--br-smi);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-8xs) var(--padding-smi);
+  gap: var(--gap-4xs);
+  cursor: pointer;
+  color: var(--color-gray-100);
+}
+.descriptionContainer {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  font-size: var(--font-size-xs);
+}
+.countryData,
+.countryInformation,
+.descriptionContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.countryInformation {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.countryData {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xl) 0 var(--padding-8xl);
+}
+.ict {
+  flex: 1;
+  background-color: var(--color-whitesmoke-400);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-lg);
+  min-width: 15.5rem;
+  max-width: 15.813rem;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .usa {
+    font-size: var(--font-size-base);
+  }
+}

@@ -1,0 +1,153 @@
+.belgium {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 8rem;
+}
+.countryInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-30xl);
+}
+.placeholderIcon {
+  width: 21.875rem;
+  position: relative;
+  border-radius: var(--br-smi);
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 22.25rem;
+  max-width: 100%;
+}
+.whyBelgium {
+  position: relative;
+  display: inline-block;
+  min-width: 8.063rem;
+}
+.ranked12thInTheWorldInTh {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.ranked12thInContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.countrySummary {
+  width: 24.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.challenges {
+  position: relative;
+  display: inline-block;
+  min-width: 7.563rem;
+}
+.challengesTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.globalCompetitionAndDigital {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.globalCompetitionAndContainer {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-black);
+}
+.countryChallenges {
+  width: 21.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.countryDetails,
+.countryHighlight {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.countryHighlight {
+  margin-right: -0.313rem;
+  margin-bottom: 2.437rem;
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-17xl) var(--padding-87xl) var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .countryDetails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .belgium {
+    font-size: var(--font-size-7xl);
+  }
+  .countryDetails {
+    gap: var(--gap-16xl);
+  }
+  .countryHighlight {
+    gap: var(--gap-13xl);
+    padding: var(--padding-4xl) var(--padding-34xl) var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .belgium {
+    font-size: var(--font-size-lgi);
+  }
+  .challenges,
+  .globalCompetitionAndContainer,
+  .ranked12thInContainer,
+  .whyBelgium {
+    font-size: var(--font-size-base);
+  }
+  .countryDetails {
+    gap: var(--gap-mid);
+  }
+  .countryHighlight {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
